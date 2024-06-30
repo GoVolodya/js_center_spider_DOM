@@ -1,0 +1,2 @@
+var t=document.querySelector(".spider"),e=document.querySelector(".wall"),r=window.getComputedStyle(e),o=e.getBoundingClientRect(),d=parseInt(r.borderLeftWidth)+parseInt(r.borderRightWidth),n=parseInt(r.borderTopWidth)+parseInt(r.borderBottomWidth),a=(o.width-d)/2,i=(o.height-n)/2;t.style.left="".concat(a,"px"),t.style.top="".concat(i,"px"),t.style.transform="translate(-50%, -50%)";
+//# sourceMappingURL=index.bf5723d2.js.map
